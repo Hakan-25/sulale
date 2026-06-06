@@ -228,12 +228,31 @@ $('auth-btn').onclick = () => openModal($('login-modal'));
 // DATA LOADING
 // =============================================
 /**
- * Load family data from server.
+ * Load family data from server or fallback to static data.
  * @param {boolean} preserveView  - if true, keep current pan/zoom (used after add/edit/delete)
  */
 async function loadFamily(preserveView = false) {
   try {
-    const data = await api('GET', '/api/family');
+    let data;
+    try {
+      data = await api('GET', '/api/family');
+    } catch (e) {
+      // Fallback for GitHub Pages static hosting
+      console.log('API not available, falling back to static data/family.json');
+      const res = await fetch('./data/family.json');
+      if (!res.ok) throw new Error('Cannot load static data');
+      data = await res.json();
+    }
+    
+    // Fix photo paths for static hosting (convert absolute /uploads/... to relative ./uploads/...)
+    if (data && data.members) {
+      Object.values(data.members).forEach(m => {
+        if (m.photo && m.photo.startsWith('/')) {
+          m.photo = '.' + m.photo;
+        }
+      });
+    }
+
     STATE.members    = data.members    || {};
     STATE.familyName = data.familyName || 'Ailem';
     STATE.nextId     = data.nextId     || 1;
