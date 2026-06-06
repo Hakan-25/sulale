@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sülale Soy Ağacı</title>
+  <meta name="description" content="Ailenizin soy ağacını görüntüleyin ve yönetin." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+
+  <!-- ════════════════ NAVBAR ════════════════ -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-brand">
+      <div class="nav-logo">🌳</div>
+      <div class="nav-title">
+        <h1 id="family-name-display">Aile Soy Ağacı</h1>
+        <span>Sülale Tarihi</span>
+      </div>
+    </div>
+    <div class="nav-actions">
+      <button class="btn-icon" id="search-btn" title="Ara (Ctrl+F)">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+      </button>
+      <button class="btn-icon" id="zoom-in-btn" title="Yakınlaştır">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
+      </button>
+      <button class="btn-icon" id="zoom-out-btn" title="Uzaklaştır">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
+      </button>
+      <button class="btn-icon" id="reset-view-btn" title="Görünümü Sıfırla">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"/><path d="M3 3v5h5"/></svg>
+      </button>
+      <button class="btn-icon admin-only" id="reset-layout-btn" style="display:none;" title="Serbest Konumları Sıfırla (Otomatik Düzene Dön)">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
+      </button>
+
+      <!-- Admin controls (hidden for visitors) -->
+      <button class="btn-primary admin-only" id="add-member-btn" style="display:none;">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><line x1="19" y1="8" x2="19" y2="14"/><line x1="22" y1="11" x2="16" y2="11"/></svg>
+        Üye Ekle
+      </button>
+      <button class="btn-secondary admin-only" id="settings-btn" style="display:none;" title="Ayarlar">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M19.07 4.93A10 10 0 1 1 4.93 19.07 10 10 0 0 1 19.07 4.93z"/></svg>
+        Ayarlar
+      </button>
+
+      <!-- Auth button -->
+      <button class="btn-auth" id="auth-btn">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+        <span id="auth-btn-text">Admin Girişi</span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ════════════ VISITOR BANNER ════════════ -->
+  <div class="visitor-banner" id="visitor-banner">
+    <span>👁️ Ziyaretçi Olarak Görüntülüyorsunuz</span>
+    <button onclick="document.getElementById('auth-btn').click()">Admin Girişi</button>
+  </div>
+
+  <!-- ════════════ ADMIN BANNER ════════════ -->
+  <div class="admin-banner" id="admin-banner" style="display:none;">
+    <span>🔐 Admin Paneli Aktif — Tüm düzenleme yetkileri açık</span>
+    <button id="logout-btn">Çıkış Yap</button>
+  </div>
+
+  <!-- ════════════ SEARCH BAR ════════════ -->
+  <div class="search-bar" id="search-bar">
+    <div class="search-inner">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+      <input type="text" id="search-input" placeholder="İsim, meslek veya yıl ile ara..." />
+      <button id="search-close">✕</button>
+    </div>
+    <div class="search-results" id="search-results"></div>
+  </div>
+
+  <!-- ════════════ CANVAS ════════════ -->
+  <main class="canvas-container" id="canvas-container">
+    <div class="canvas-world" id="canvas-world">
+      <svg class="connections-svg" id="connections-svg"></svg>
+      <div class="nodes-layer" id="nodes-layer"></div>
+    </div>
+    <div class="lasso-box" id="lasso-box" style="display:none; position:absolute; border:2px dashed rgba(96,165,250,0.8); background:rgba(96,165,250,0.1); pointer-events:none; z-index:100;"></div>
+    <!-- Empty state -->
+    <div class="empty-state" id="empty-state" style="display:none;">
+      <div class="empty-icon">🌱</div>
+      <h2>Soy Ağacı Henüz Boş</h2>
+      <p id="empty-state-msg">Admin girişi yaparak aile üyesi eklemeye başlayabilirsiniz.</p>
+      <button class="btn-primary large admin-only" id="empty-add-btn" style="display:none;">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><line x1="19" y1="8" x2="19" y2="14"/><line x1="22" y1="11" x2="16" y2="11"/></svg>
+        İlk Üyeyi Ekle
+      </button>
+    </div>
+    <!-- Loading -->
+    <div class="loading-state" id="loading-state">
+      <div class="loading-spinner"></div>
+      <p>Soy ağacı yükleniyor...</p>
+    </div>
+  </main>
+
+  <!-- ════════════ MINIMAP ════════════ -->
+  <div class="minimap" id="minimap">
+    <canvas id="minimap-canvas" width="160" height="100"></canvas>
+  </div>
+
+  <!-- ════════════ LEGEND ════════════ -->
+  <div class="legend">
+    <div class="legend-item"><span class="legend-dot male"></span> Erkek</div>
+    <div class="legend-item"><span class="legend-dot female"></span> Kadın</div>
+    <div class="legend-item"><span class="legend-line marriage"></span> Evlilik</div>
+    <div class="legend-item"><span class="legend-line child"></span> Ebeveyn</div>
+  </div>
+
+  <!-- ═══════════ LOGIN MODAL ═══════════ -->
+  <div class="modal-overlay" id="login-modal">
+    <div class="modal login-modal-box">
+      <div class="login-modal-header">
+        <div class="login-logo">🔐</div>
+        <h2>Admin Girişi</h2>
+        <p>Soy ağacını yönetmek için giriş yapın</p>
+        <button class="modal-close" id="login-close">✕</button>
+      </div>
+      <div class="modal-body">
+        <div class="form-group">
+          <label for="admin-password">Yönetici Şifresi</label>
+          <div class="password-input-wrap">
+            <input type="password" id="admin-password" placeholder="••••••••" autocomplete="current-password" />
+            <button class="toggle-pw" id="toggle-pw" type="button">👁</button>
+          </div>
+        </div>
+        <div class="login-error" id="login-error" style="display:none;"></div>
+      </div>
+      <div class="modal-footer">
+        <button class="btn-outline" id="login-cancel">Ziyaretçi Olarak Devam Et</button>
+        <button class="btn-primary" id="login-submit">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 3h4a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-4"/><polyline points="10 17 15 12 10 7"/><line x1="15" y1="12" x2="3" y2="12"/></svg>
+          Giriş Yap
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ═══════════ MEMBER MODAL ═══════════ -->
+  <div class="modal-overlay" id="member-modal">
+    <div class="modal">
+      <div class="modal-header">
+        <h2 id="modal-title">Yeni Üye Ekle</h2>
+        <button class="modal-close" id="member-modal-close">✕</button>
+      </div>
+      <div class="modal-body">
+        <!-- Photo upload -->
+        <div class="photo-upload-area">
+          <div class="photo-preview" id="photo-preview">
+            <div class="photo-placeholder" id="photo-placeholder">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+            </div>
+            <img id="photo-img" src="" alt="" style="display:none;" />
+          </div>
+          <div class="photo-upload-btn">
+            <input type="file" id="photo-input" accept="image/*" style="display:none;" />
+            <button class="btn-outline" type="button" onclick="document.getElementById('photo-input').click()">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="17 8 12 3 7 8"/><line x1="12" y1="3" x2="12" y2="15"/></svg>
+              Fotoğraf Yükle
+            </button>
+            <button class="btn-outline danger" id="remove-photo-btn" type="button" style="display:none;">Fotoğrafı Kaldır</button>
+            <div class="upload-progress" id="upload-progress" style="display:none;">
+              <div class="upload-bar" id="upload-bar"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="form-grid">
+          <div class="form-group full-width">
+            <label for="member-name">Ad Soyad *</label>
+            <input type="text" id="member-name" placeholder="Örn: Ahmet Yılmaz" required />
+          </div>
+          <div class="form-group">
+            <label>Cinsiyet *</label>
+            <div class="gender-selector">
+              <button class="gender-btn active" data-gender="male" id="gender-male" type="button">👨 Erkek</button>
+              <button class="gender-btn" data-gender="female" id="gender-female" type="button">👩 Kadın</button>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="member-birth">Doğum Tarihi</label>
+            <input type="date" id="member-birth" />
+          </div>
+          <div class="form-group">
+            <label for="member-death">Vefat Tarihi</label>
+            <input type="date" id="member-death" />
+          </div>
+          <div class="form-group full-width">
+            <label for="member-birthplace">Doğum Yeri</label>
+            <input type="text" id="member-birthplace" placeholder="Örn: İstanbul, Türkiye" />
+          </div>
+          <div class="form-group full-width">
+            <label for="member-occupation">Meslek</label>
+            <input type="text" id="member-occupation" placeholder="Örn: Öğretmen, Mühendis..." />
+          </div>
+          <div class="form-group full-width">
+            <label for="member-bio">Biyografi / Notlar</label>
+            <textarea id="member-bio" rows="3" placeholder="Bu kişi hakkında önemli notlar..."></textarea>
+          </div>
+        </div>
+
+        <div class="relationships-section" id="relationships-section">
+          <h3>İlişkiler</h3>
+          <div class="form-group">
+            <label for="parent-select">Ebeveynler</label>
+            <select id="parent-select" multiple size="4">
+            </select>
+            <small>Birden fazla seçmek için Ctrl tuşuna basın</small>
+          </div>
+          <div class="form-group">
+            <label for="spouse-select">Eş</label>
+            <select id="spouse-select">
+              <option value="">-- Eş seçmeyin --</option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal-footer">
+        <button class="btn-danger" id="modal-delete" style="display:none;">🗑️ Sil</button>
+        <div style="flex:1"></div>
+        <button class="btn-outline" id="modal-cancel">İptal</button>
+        <button class="btn-primary" id="modal-save">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+          Kaydet
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ═══════════ PROFILE CARD ═══════════ -->
+  <div class="profile-card" id="profile-card" style="display:none;">
+    <button class="profile-card-close" id="profile-card-close">✕</button>
+    <div class="profile-card-photo">
+      <div class="pc-photo-placeholder" id="pc-photo-placeholder">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+      </div>
+      <img id="pc-photo" src="" alt="" style="display:none;" />
+    </div>
+    <div class="profile-card-info">
+      <h3 id="pc-name"></h3>
+      <span class="pc-years" id="pc-years"></span>
+      <div class="pc-details" id="pc-details"></div>
+    </div>
+    <div class="profile-card-actions" id="pc-actions">
+      <!-- Visitor sees nothing, admin sees edit buttons -->
+    </div>
+  </div>
+
+  <!-- ═══════════ SETTINGS MODAL ═══════════ -->
+  <div class="modal-overlay" id="settings-modal">
+    <div class="modal small-modal">
+      <div class="modal-header">
+        <h2>⚙️ Site Ayarları</h2>
+        <button class="modal-close" id="settings-close">✕</button>
+      </div>
+      <div class="modal-body">
+        <div class="form-group">
+          <label for="family-name-input">Aile / Sülale Adı</label>
+          <input type="text" id="family-name-input" placeholder="Örn: Yılmaz Ailesi" />
+        </div>
+        <button class="btn-primary full-btn" id="save-family-name">Adı Güncelle</button>
+        <hr style="border-color:var(--border);margin:16px 0;" />
+        <div class="form-group">
+          <label>Veri Yönetimi</label>
+          <div class="data-actions">
+            <button class="btn-outline" id="export-btn">📤 Dışa Aktar (JSON)</button>
+            <label class="btn-outline" for="import-input" style="cursor:pointer;justify-content:center;">📥 İçe Aktar (JSON)</label>
+            <input type="file" id="import-input" accept=".json" style="display:none;" />
+          </div>
+        </div>
+        <hr style="border-color:var(--border);margin:16px 0;" />
+        <button class="btn-danger full" id="clear-all-btn">🗑️ Tüm Veriyi Sil</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ═══════════ TOAST ═══════════ -->
+  <div class="toast" id="toast"></div>
+
+  <script src="/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,3496 @@
+{
+  "familyName": "Sülale Soy Ağacı",
+  "nextId": 188,
+  "members": {
+    "1": {
+      "id": "1",
+      "name": "Bedri",
+      "gender": "male",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [],
+      "spouseId": null,
+      "x": null,
+      "y": null,
+      "lockedX": null,
+      "lockedY": null
+    },
+    "2": {
+      "id": "2",
+      "name": "Recep",
+      "gender": "male",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "1"
+      ],
+      "spouseId": null,
+      "x": null,
+      "y": null,
+      "lockedX": null,
+      "lockedY": null
+    },
+    "3": {
+      "id": "3",
+      "name": "Kasım",
+      "gender": "male",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "2"
+      ],
+      "spouseId": null,
+      "x": null,
+      "y": null,
+      "lockedX": null,
+      "lockedY": null
+    },
+    "4": {
+      "id": "4",
+      "name": "Ramazan",
+      "gender": "male",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "3"
+      ],
+      "spouseId": null,
+      "x": null,
+      "y": null,
+      "lockedX": null,
+      "lockedY": null
+    },
+    "5": {
+      "id": "5",
+      "name": "Abdurrahman Ağa",
+      "gender": "male",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "4"
+      ],
+      "spouseId": null,
+      "x": null,
+      "y": null,
+      "lockedX": null,
+      "lockedY": null
+    },
+    "6": {
+      "id": "6",
+      "name": "Yusuf Ağa",
+      "gender": "male",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "5"
+      ],
+      "spouseId": null,
+      "x": null,
+      "y": null,
+      "lockedX": null,
+      "lockedY": null
+    },
+    "7": {
+      "id": "7",
+      "name": "İsmail Ağa",
+      "gender": "male",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "5"
+      ],
+      "spouseId": null,
+      "x": null,
+      "y": null,
+      "lockedX": null,
+      "lockedY": null
+    },
+    "8": {
+      "id": "8",
+      "name": "Ali Bey",
+      "gender": "male",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "5"
+      ],
+      "spouseId": null,
+      "x": null,
+      "y": null,
+      "lockedX": null,
+      "lockedY": null
+    },
+    "9": {
+      "id": "9",
+      "name": "Hacı Mustafa",
+      "gender": "male",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "5"
+      ],
+      "spouseId": null,
+      "x": null,
+      "y": null,
+      "lockedX": null,
+      "lockedY": null
+    },
+    "10": {
+      "id": "10",
+      "name": "Paşa Bey",
+      "gender": "male",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "7"
+      ],
+      "spouseId": null,
+      "x": null,
+      "y": null,
+      "lockedX": null,
+      "lockedY": null
+    },
+    "11": {
+      "id": "11",
+      "name": "Gülobey",
+      "gender": "male",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "7"
+      ],
+      "spouseId": null,
+      "x": null,
+      "y": null,
+      "lockedX": null,
+      "lockedY": null
+    },
+    "12": {
+      "id": "12",
+      "name": "Derviş",
+      "gender": "male",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "7"
+      ],
+      "spouseId": null,
+      "x": null,
+      "y": null,
+      "lockedX": null,
+      "lockedY": null
+    },
+    "13": {
+      "id": "13",
+      "name": "Molla Halis",
+      "gender": "male",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "7"
+      ],
+      "spouseId": null,
+      "x": null,
+      "y": null,
+      "lockedX": null,
+      "lockedY": null
+    },
+    "14": {
+      "id": "14",
+      "name": "Paşamet",
+      "gender": "male",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "7"
+      ],
+      "spouseId": null,
+      "x": null,
+      "y": null,
+      "lockedX": null,
+      "lockedY": null
+    },
+    "15": {
+      "id": "15",
+      "name": "Gazi",
+      "gender": "male",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "7"
+      ],
+      "spouseId": null,
+      "x": null,
+      "y": null,
+      "lockedX": null,
+      "lockedY": null
+    },
+    "16": {
+      "id": "16",
+      "name": "Nazlı",
+      "gender": "female",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "10"
+      ],
+      "spouseId": null,
+      "x": null,
+      "y": null,
+      "lockedX": null,
+      "lockedY": null
+    },
+    "17": {
+      "id": "17",
+      "name": "Serfinaz",
+      "gender": "female",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "10"
+      ],
+      "spouseId": null,
+      "x": null,
+      "y": null,
+      "lockedX": null,
+      "lockedY": null
+    },
+    "18": {
+      "id": "18",
+      "name": "İsmet",
+      "gender": "male",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "10"
+      ],
+      "spouseId": null,
+      "x": null,
+      "y": null,
+      "lockedX": null,
+      "lockedY": null
+    },
+    "19": {
+      "id": "19",
+      "name": "Adil Gündüz",
+      "gender": "male",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "11"
+      ],
+      "spouseId": null,
+      "x": null,
+      "y": null,
+      "lockedX": null,
+      "lockedY": null
+    },
+    "20": {
+      "id": "20",
+      "name": "Hacı Mevlüt Kasımoğlu",
+      "gender": "male",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "11"
+      ],
+      "spouseId": null,
+      "x": null,
+      "y": null,
+      "lockedX": null,
+      "lockedY": null
+    },
+    "21": {
+      "id": "21",
+      "name": "Hamım",
+      "gender": "male",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "11"
+      ],
+      "spouseId": null,
+      "x": null,
+      "y": null,
+      "lockedX": null,
+      "lockedY": null
+    },
+    "22": {
+      "id": "22",
+      "name": "Miya",
+      "gender": "female",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "11"
+      ],
+      "spouseId": null,
+      "x": null,
+      "y": null,
+      "lockedX": null,
+      "lockedY": null
+    },
+    "23": {
+      "id": "23",
+      "name": "Davut",
+      "gender": "male",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "19"
+      ],
+      "spouseId": null,
+      "x": null,
+      "y": null,
+      "lockedX": null,
+      "lockedY": null
+    },
+    "24": {
+      "id": "24",
+      "name": "Memet",
+      "gender": "male",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "19"
+      ],
+      "spouseId": null,
+      "x": null,
+      "y": null,
+      "lockedX": null,
+      "lockedY": null
+    },
+    "25": {
+      "id": "25",
+      "name": "Adem",
+      "gender": "male",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "19"
+      ],
+      "spouseId": null,
+      "x": null,
+      "y": null,
+      "lockedX": null,
+      "lockedY": null
+    },
+    "26": {
+      "id": "26",
+      "name": "Kemal",
+      "gender": "male",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "19"
+      ],
+      "spouseId": null,
+      "x": null,
+      "y": null,
+      "lockedX": null,
+      "lockedY": null
+    },
+    "27": {
+      "id": "27",
+      "name": "Erdal",
+      "gender": "male",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "20"
+      ],
+      "spouseId": null,
+      "x": null,
+      "y": null,
+      "lockedX": null,
+      "lockedY": null
+    },
+    "28": {
+      "id": "28",
+      "name": "Lütfi",
+      "gender": "male",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "20"
+      ],
+      "spouseId": null,
+      "x": null,
+      "y": null,
+      "lockedX": null,
+      "lockedY": null
+    },
+    "29": {
+      "id": "29",
+      "name": "Muharrem",
+      "gender": "male",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "20"
+      ],
+      "spouseId": null,
+      "x": null,
+      "y": null,
+      "lockedX": null,
+      "lockedY": null
+    },
+    "30": {
+      "id": "30",
+      "name": "Agah Güneş",
+      "gender": "male",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "12"
+      ],
+      "spouseId": null,
+      "x": null,
+      "y": null,
+      "lockedX": null,
+      "lockedY": null
+    },
+    "31": {
+      "id": "31",
+      "name": "İsmail",
+      "gender": "male",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "30"
+      ],
+      "spouseId": null,
+      "x": null,
+      "y": null,
+      "lockedX": null,
+      "lockedY": null
+    },
+    "32": {
+      "id": "32",
+      "name": "Eyüp Güneş",
+      "gender": "male",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "30"
+      ],
+      "spouseId": null,
+      "x": null,
+      "y": null,
+      "lockedX": null,
+      "lockedY": null
+    },
+    "33": {
+      "id": "33",
+      "name": "Tayyip Güneş",
+      "gender": "male",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "30"
+      ],
+      "spouseId": null,
+      "x": null,
+      "y": null,
+      "lockedX": null,
+      "lockedY": null
+    },
+    "34": {
+      "id": "34",
+      "name": "Ömer Yılmaz",
+      "gender": "male",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "13"
+      ],
+      "spouseId": null,
+      "x": null,
+      "y": null,
+      "lockedX": null,
+      "lockedY": null
+    },
+    "35": {
+      "id": "35",
+      "name": "Osman Yılmaz",
+      "gender": "male",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "13"
+      ],
+      "spouseId": null,
+      "x": null,
+      "y": null,
+      "lockedX": null,
+      "lockedY": null
+    },
+    "36": {
+      "id": "36",
+      "name": "Taştan Kasımoğlu",
+      "gender": "male",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "13"
+      ],
+      "spouseId": null,
+      "x": null,
+      "y": null,
+      "lockedX": null,
+      "lockedY": null
+    },
+    "37": {
+      "id": "37",
+      "name": "Fevzi Yılmaz",
+      "gender": "male",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "13"
+      ],
+      "spouseId": null,
+      "x": null,
+      "y": null,
+      "lockedX": null,
+      "lockedY": null
+    },
+    "38": {
+      "id": "38",
+      "name": "Emin Yılmaz",
+      "gender": "male",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "13"
+      ],
+      "spouseId": null,
+      "x": null,
+      "y": null,
+      "lockedX": null,
+      "lockedY": null
+    },
+    "39": {
+      "id": "39",
+      "name": "Mikail (Mahmut)",
+      "gender": "male",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "34"
+      ],
+      "spouseId": null,
+      "x": null,
+      "y": null,
+      "lockedX": null,
+      "lockedY": null
+    },
+    "40": {
+      "id": "40",
+      "name": "Nurettin",
+      "gender": "male",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "34"
+      ],
+      "spouseId": null,
+      "x": null,
+      "y": null,
+      "lockedX": null,
+      "lockedY": null
+    },
+    "41": {
+      "id": "41",
+      "name": "Nesmettin",
+      "gender": "male",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "34"
+      ],
+      "spouseId": null,
+      "x": null,
+      "y": null,
+      "lockedX": null,
+      "lockedY": null
+    },
+    "42": {
+      "id": "42",
+      "name": "Elif",
+      "gender": "female",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "34"
+      ],
+      "spouseId": null,
+      "x": null,
+      "y": null,
+      "lockedX": null,
+      "lockedY": null
+    },
+    "43": {
+      "id": "43",
+      "name": "Altın",
+      "gender": "female",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "34"
+      ],
+      "spouseId": null,
+      "x": null,
+      "y": null,
+      "lockedX": null,
+      "lockedY": null
+    },
+    "44": {
+      "id": "44",
+      "name": "Cemal",
+      "gender": "male",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "35"
+      ],
+      "spouseId": null,
+      "x": null,
+      "y": null,
+      "lockedX": null,
+      "lockedY": null
+    },
+    "45": {
+      "id": "45",
+      "name": "Hatice",
+      "gender": "male",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "35"
+      ],
+      "spouseId": null,
+      "x": null,
+      "y": null,
+      "lockedX": null,
+      "lockedY": null
+    },
+    "46": {
+      "id": "46",
+      "name": "Nazlı",
+      "gender": "female",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "35"
+      ],
+      "spouseId": null,
+      "x": null,
+      "y": null,
+      "lockedX": null,
+      "lockedY": null
+    },
+    "47": {
+      "id": "47",
+      "name": "Ümmühan",
+      "gender": "female",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "35"
+      ],
+      "spouseId": null,
+      "x": null,
+      "y": null,
+      "lockedX": null,
+      "lockedY": null
+    },
+    "48": {
+      "id": "48",
+      "name": "Fehmi",
+      "gender": "male",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "44"
+      ],
+      "spouseId": null,
+      "x": null,
+      "y": null,
+      "lockedX": null,
+      "lockedY": null
+    },
+    "49": {
+      "id": "49",
+      "name": "Amir",
+      "gender": "male",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "44"
+      ],
+      "spouseId": null,
+      "x": null,
+      "y": null,
+      "lockedX": null,
+      "lockedY": null
+    },
+    "50": {
+      "id": "50",
+      "name": "Yaşar",
+      "gender": "male",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "36"
+      ],
+      "spouseId": null,
+      "x": null,
+      "y": null,
+      "lockedX": null,
+      "lockedY": null
+    },
+    "51": {
+      "id": "51",
+      "name": "İhsan",
+      "gender": "male",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "36"
+      ],
+      "spouseId": null,
+      "x": null,
+      "y": null,
+      "lockedX": null,
+      "lockedY": null
+    },
+    "52": {
+      "id": "52",
+      "name": "Adem",
+      "gender": "male",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "36"
+      ],
+      "spouseId": null,
+      "x": null,
+      "y": null,
+      "lockedX": null,
+      "lockedY": null
+    },
+    "53": {
+      "id": "53",
+      "name": "Ayhan",
+      "gender": "male",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "36"
+      ],
+      "spouseId": null,
+      "x": null,
+      "y": null,
+      "lockedX": null,
+      "lockedY": null
+    },
+    "54": {
+      "id": "54",
+      "name": "Hatem",
+      "gender": "male",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "36"
+      ],
+      "spouseId": null,
+      "x": null,
+      "y": null,
+      "lockedX": null,
+      "lockedY": null
+    },
+    "55": {
+      "id": "55",
+      "name": "Fadime",
+      "gender": "male",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "36"
+      ],
+      "spouseId": null,
+      "x": null,
+      "y": null,
+      "lockedX": null,
+      "lockedY": null
+    },
+    "56": {
+      "id": "56",
+      "name": "Ahmet Ağa",
+      "gender": "male",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "9"
+      ],
+      "spouseId": null,
+      "x": null,
+      "y": null,
+      "lockedX": null,
+      "lockedY": null
+    },
+    "57": {
+      "id": "57",
+      "name": "Hacı Bahri",
+      "gender": "male",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "9"
+      ],
+      "spouseId": null,
+      "x": null,
+      "y": null,
+      "lockedX": null,
+      "lockedY": null
+    },
+    "58": {
+      "id": "58",
+      "name": "Hacı Abdurrahman",
+      "gender": "male",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "9"
+      ],
+      "spouseId": null,
+      "x": null,
+      "y": null,
+      "lockedX": null,
+      "lockedY": null
+    },
+    "59": {
+      "id": "59",
+      "name": "Şerife",
+      "gender": "female",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "9"
+      ],
+      "spouseId": null,
+      "x": null,
+      "y": null,
+      "lockedX": null,
+      "lockedY": null
+    },
+    "60": {
+      "id": "60",
+      "name": "İsmet",
+      "gender": "male",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "9"
+      ],
+      "spouseId": null,
+      "x": null,
+      "y": null,
+      "lockedX": null,
+      "lockedY": null
+    },
+    "61": {
+      "id": "61",
+      "name": "Anahanım",
+      "gender": "female",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "9"
+      ],
+      "spouseId": null,
+      "x": null,
+      "y": null,
+      "lockedX": null,
+      "lockedY": null
+    },
+    "62": {
+      "id": "62",
+      "name": "Sediye",
+      "gender": "female",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "56"
+      ],
+      "spouseId": null,
+      "x": null,
+      "y": null,
+      "lockedX": null,
+      "lockedY": null
+    },
+    "63": {
+      "id": "63",
+      "name": "Cemile",
+      "gender": "female",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "56"
+      ],
+      "spouseId": null,
+      "x": null,
+      "y": null,
+      "lockedX": null,
+      "lockedY": null
+    },
+    "64": {
+      "id": "64",
+      "name": "Mehmet",
+      "gender": "male",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "56"
+      ],
+      "spouseId": null,
+      "x": null,
+      "y": null,
+      "lockedX": null,
+      "lockedY": null
+    },
+    "65": {
+      "id": "65",
+      "name": "Talehe",
+      "gender": "male",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "56"
+      ],
+      "spouseId": null,
+      "x": null,
+      "y": null,
+      "lockedX": null,
+      "lockedY": null
+    },
+    "66": {
+      "id": "66",
+      "name": "Rukiye",
+      "gender": "female",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "56"
+      ],
+      "spouseId": null,
+      "x": null,
+      "y": null,
+      "lockedX": null,
+      "lockedY": null
+    },
+    "67": {
+      "id": "67",
+      "name": "Hatice",
+      "gender": "female",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "56"
+      ],
+      "spouseId": null,
+      "x": null,
+      "y": null,
+      "lockedX": null,
+      "lockedY": null
+    },
+    "68": {
+      "id": "68",
+      "name": "Talip KASIMOĞULLARI",
+      "gender": "male",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "64"
+      ],
+      "spouseId": "87",
+      "x": null,
+      "y": null,
+      "lockedX": null,
+      "lockedY": null
+    },
+    "69": {
+      "id": "69",
+      "name": "Fatih KASIMOĞULLARI",
+      "gender": "male",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "64"
+      ],
+      "spouseId": null,
+      "x": null,
+      "y": null,
+      "lockedX": null,
+      "lockedY": null
+    },
+    "70": {
+      "id": "70",
+      "name": "Celal KASIMOĞULLARI",
+      "gender": "male",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "64"
+      ],
+      "spouseId": null,
+      "x": null,
+      "y": null,
+      "lockedX": null,
+      "lockedY": null
+    },
+    "71": {
+      "id": "71",
+      "name": "Ahmet KASIMOĞULLARI",
+      "gender": "male",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "64"
+      ],
+      "spouseId": null,
+      "x": null,
+      "y": null,
+      "lockedX": null,
+      "lockedY": null
+    },
+    "72": {
+      "id": "72",
+      "name": "Aytekin KASIMOĞULLARI",
+      "gender": "male",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "64"
+      ],
+      "spouseId": null,
+      "x": null,
+      "y": null,
+      "lockedX": null,
+      "lockedY": null
+    },
+    "73": {
+      "id": "73",
+      "name": "Muammer KASIMOĞULLARI",
+      "gender": "male",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "64"
+      ],
+      "spouseId": null,
+      "x": null,
+      "y": null,
+      "lockedX": null,
+      "lockedY": null
+    },
+    "74": {
+      "id": "74",
+      "name": "Mariye",
+      "gender": "female",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "64"
+      ],
+      "spouseId": null,
+      "x": null,
+      "y": null,
+      "lockedX": null,
+      "lockedY": null
+    },
+    "75": {
+      "id": "75",
+      "name": "Ayşe",
+      "gender": "female",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "64"
+      ],
+      "spouseId": null,
+      "x": null,
+      "y": null,
+      "lockedX": null,
+      "lockedY": null
+    },
+    "76": {
+      "id": "76",
+      "name": "Zehra",
+      "gender": "female",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "64"
+      ],
+      "spouseId": null,
+      "x": null,
+      "y": null,
+      "lockedX": null,
+      "lockedY": null
+    },
+    "77": {
+      "id": "77",
+      "name": "Suzan",
+      "gender": "female",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "64"
+      ],
+      "spouseId": null,
+      "x": null,
+      "y": null,
+      "lockedX": null,
+      "lockedY": null
+    },
+    "78": {
+      "id": "78",
+      "name": "Rezan",
+      "gender": "female",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "64"
+      ],
+      "spouseId": null,
+      "x": null,
+      "y": null,
+      "lockedX": null,
+      "lockedY": null
+    },
+    "79": {
+      "id": "79",
+      "name": "Eyüp KASIMOĞULLARI",
+      "gender": "male",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "68"
+      ],
+      "spouseId": null,
+      "x": null,
+      "y": null,
+      "lockedX": null,
+      "lockedY": null
+    },
+    "80": {
+      "id": "80",
+      "name": "Furkan KASIMOĞULLARI",
+      "gender": "male",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "68"
+      ],
+      "spouseId": "86",
+      "x": null,
+      "y": null,
+      "lockedX": null,
+      "lockedY": null
+    },
+    "81": {
+      "id": "81",
+      "name": "Şule KASIMOĞULLARI",
+      "gender": "female",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "68"
+      ],
+      "spouseId": null,
+      "x": null,
+      "y": null,
+      "lockedX": null,
+      "lockedY": null
+    },
+    "82": {
+      "id": "82",
+      "name": "Zafer KASIMOĞULLARI",
+      "gender": "male",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "68"
+      ],
+      "spouseId": null,
+      "x": null,
+      "y": null,
+      "lockedX": null,
+      "lockedY": null
+    },
+    "83": {
+      "id": "83",
+      "name": "Muhammet Hakan KASIMOĞULLARI",
+      "gender": "male",
+      "birthDate": "2005-11-05",
+      "deathDate": null,
+      "birthplace": "erzurum / palandöken",
+      "occupation": null,
+      "bio": null,
+      "photo": "/uploads/photo_1780761380943_9b9y0zbl7gk.jpg",
+      "parentIds": [
+        "80"
+      ],
+      "spouseId": null,
+      "x": null,
+      "y": null,
+      "lockedX": null,
+      "lockedY": null
+    },
+    "86": {
+      "id": "86",
+      "name": "Nurye KASIMOĞULLARI",
+      "gender": "female",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [],
+      "spouseId": "80",
+      "lockedX": null,
+      "lockedY": null,
+      "x": null,
+      "y": null
+    },
+    "87": {
+      "id": "87",
+      "name": "Gülümser KASIMOĞULLARI",
+      "gender": "female",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [],
+      "spouseId": "68",
+      "lockedX": null,
+      "lockedY": null,
+      "x": null,
+      "y": null
+    },
+    "88": {
+      "id": "88",
+      "name": "Nazlı Şeyma KASIMOĞULLARI",
+      "gender": "female",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "80"
+      ],
+      "spouseId": null,
+      "lockedX": null,
+      "lockedY": null,
+      "x": null,
+      "y": null
+    },
+    "89": {
+      "id": "89",
+      "name": "Şüheda KASIMOĞULLARI",
+      "gender": "female",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "80"
+      ],
+      "spouseId": null,
+      "lockedX": null,
+      "lockedY": null,
+      "x": null,
+      "y": null
+    },
+    "90": {
+      "id": "90",
+      "name": "Yusuf Yıldızlı",
+      "gender": "male",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "81"
+      ],
+      "spouseId": null,
+      "lockedX": null,
+      "lockedY": null,
+      "x": null,
+      "y": null
+    },
+    "91": {
+      "id": "91",
+      "name": "Hacı Salim",
+      "gender": "male",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "57"
+      ],
+      "spouseId": null,
+      "lockedX": null,
+      "lockedY": null,
+      "x": null,
+      "y": null
+    },
+    "92": {
+      "id": "92",
+      "name": "Hava",
+      "gender": "female",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "57"
+      ],
+      "spouseId": null,
+      "lockedX": null,
+      "lockedY": null,
+      "x": null,
+      "y": null
+    },
+    "93": {
+      "id": "93",
+      "name": "Hamza",
+      "gender": "male",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "57"
+      ],
+      "spouseId": null,
+      "lockedX": null,
+      "lockedY": null,
+      "x": null,
+      "y": null
+    },
+    "94": {
+      "id": "94",
+      "name": "Şerife",
+      "gender": "female",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "57"
+      ],
+      "spouseId": null,
+      "lockedX": null,
+      "lockedY": null,
+      "x": null,
+      "y": null
+    },
+    "95": {
+      "id": "95",
+      "name": "İsmet",
+      "gender": "male",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "57"
+      ],
+      "spouseId": null,
+      "lockedX": null,
+      "lockedY": null,
+      "x": null,
+      "y": null
+    },
+    "96": {
+      "id": "96",
+      "name": "Sait",
+      "gender": "male",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "57"
+      ],
+      "spouseId": null,
+      "lockedX": null,
+      "lockedY": null,
+      "x": null,
+      "y": null
+    },
+    "97": {
+      "id": "97",
+      "name": "Kasım",
+      "gender": "male",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "57"
+      ],
+      "spouseId": null,
+      "lockedX": null,
+      "lockedY": null,
+      "x": null,
+      "y": null
+    },
+    "98": {
+      "id": "98",
+      "name": "Fadime",
+      "gender": "female",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "57"
+      ],
+      "spouseId": null,
+      "lockedX": null,
+      "lockedY": null,
+      "x": null,
+      "y": null
+    },
+    "99": {
+      "id": "99",
+      "name": "Hatice",
+      "gender": "female",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "57"
+      ],
+      "spouseId": null,
+      "lockedX": null,
+      "lockedY": null,
+      "x": null,
+      "y": null
+    },
+    "100": {
+      "id": "100",
+      "name": "Emine",
+      "gender": "female",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "57"
+      ],
+      "spouseId": null,
+      "lockedX": null,
+      "lockedY": null,
+      "x": null,
+      "y": null
+    },
+    "101": {
+      "id": "101",
+      "name": "Mustafa",
+      "gender": "male",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "57"
+      ],
+      "spouseId": null,
+      "lockedX": null,
+      "lockedY": null,
+      "x": null,
+      "y": null
+    },
+    "102": {
+      "id": "102",
+      "name": "İlhame",
+      "gender": "female",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "57"
+      ],
+      "spouseId": null,
+      "lockedX": null,
+      "lockedY": null,
+      "x": null,
+      "y": null
+    },
+    "103": {
+      "id": "103",
+      "name": "Ayşe",
+      "gender": "female",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "91"
+      ],
+      "spouseId": null,
+      "lockedX": null,
+      "lockedY": null,
+      "x": null,
+      "y": null
+    },
+    "104": {
+      "id": "104",
+      "name": "Asiye",
+      "gender": "female",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "91"
+      ],
+      "spouseId": null,
+      "lockedX": null,
+      "lockedY": null,
+      "x": null,
+      "y": null
+    },
+    "105": {
+      "id": "105",
+      "name": "Kenan",
+      "gender": "male",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "91"
+      ],
+      "spouseId": null,
+      "lockedX": null,
+      "lockedY": null,
+      "x": null,
+      "y": null
+    },
+    "106": {
+      "id": "106",
+      "name": "Adnan",
+      "gender": "male",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "91"
+      ],
+      "spouseId": null,
+      "lockedX": null,
+      "lockedY": null,
+      "x": null,
+      "y": null
+    },
+    "107": {
+      "id": "107",
+      "name": "Rahime",
+      "gender": "female",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "91"
+      ],
+      "spouseId": null,
+      "lockedX": null,
+      "lockedY": null,
+      "x": null,
+      "y": null
+    },
+    "108": {
+      "id": "108",
+      "name": "Hacı Zeki",
+      "gender": "male",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "93"
+      ],
+      "spouseId": null,
+      "lockedX": null,
+      "lockedY": null,
+      "x": null,
+      "y": null
+    },
+    "109": {
+      "id": "109",
+      "name": "Halit",
+      "gender": "male",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "93"
+      ],
+      "spouseId": null,
+      "lockedX": null,
+      "lockedY": null,
+      "x": null,
+      "y": null
+    },
+    "110": {
+      "id": "110",
+      "name": "Asim",
+      "gender": "male",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "93"
+      ],
+      "spouseId": null,
+      "lockedX": null,
+      "lockedY": null,
+      "x": null,
+      "y": null
+    },
+    "111": {
+      "id": "111",
+      "name": "Hilmi",
+      "gender": "male",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "93"
+      ],
+      "spouseId": null,
+      "lockedX": null,
+      "lockedY": null,
+      "x": null,
+      "y": null
+    },
+    "112": {
+      "id": "112",
+      "name": "Melehe",
+      "gender": "female",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "93"
+      ],
+      "spouseId": null,
+      "lockedX": null,
+      "lockedY": null,
+      "x": null,
+      "y": null
+    },
+    "113": {
+      "id": "113",
+      "name": "Leyla",
+      "gender": "female",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "93"
+      ],
+      "spouseId": null,
+      "lockedX": null,
+      "lockedY": null,
+      "x": null,
+      "y": null
+    },
+    "114": {
+      "id": "114",
+      "name": "Mübeyye",
+      "gender": "female",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "93"
+      ],
+      "spouseId": null,
+      "lockedX": null,
+      "lockedY": null,
+      "x": null,
+      "y": null
+    },
+    "115": {
+      "id": "115",
+      "name": "Ayşe",
+      "gender": "female",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "93"
+      ],
+      "spouseId": null,
+      "lockedX": null,
+      "lockedY": null,
+      "x": null,
+      "y": null
+    },
+    "116": {
+      "id": "116",
+      "name": "Gülümser",
+      "gender": "female",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "93"
+      ],
+      "spouseId": null,
+      "lockedX": null,
+      "lockedY": null,
+      "x": null,
+      "y": null
+    },
+    "117": {
+      "id": "117",
+      "name": "Mesude",
+      "gender": "female",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "93"
+      ],
+      "spouseId": null,
+      "lockedX": null,
+      "lockedY": null,
+      "x": null,
+      "y": null
+    },
+    "118": {
+      "id": "118",
+      "name": "Arif",
+      "gender": "male",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "110"
+      ],
+      "spouseId": null,
+      "lockedX": null,
+      "lockedY": null,
+      "x": null,
+      "y": null
+    },
+    "119": {
+      "id": "119",
+      "name": "İlham",
+      "gender": "male",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "110"
+      ],
+      "spouseId": null,
+      "lockedX": null,
+      "lockedY": null,
+      "x": null,
+      "y": null
+    },
+    "120": {
+      "id": "120",
+      "name": "İrfan",
+      "gender": "male",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "110"
+      ],
+      "spouseId": null,
+      "lockedX": null,
+      "lockedY": null,
+      "x": null,
+      "y": null
+    },
+    "121": {
+      "id": "121",
+      "name": "Sinan",
+      "gender": "male",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "110"
+      ],
+      "spouseId": null,
+      "lockedX": null,
+      "lockedY": null,
+      "x": null,
+      "y": null
+    },
+    "122": {
+      "id": "122",
+      "name": "İsmet",
+      "gender": "male",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "110"
+      ],
+      "spouseId": null,
+      "lockedX": null,
+      "lockedY": null,
+      "x": null,
+      "y": null
+    },
+    "123": {
+      "id": "123",
+      "name": "Nevin",
+      "gender": "female",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "110"
+      ],
+      "spouseId": null,
+      "lockedX": null,
+      "lockedY": null,
+      "x": null,
+      "y": null
+    },
+    "124": {
+      "id": "124",
+      "name": "Sevim",
+      "gender": "female",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "110"
+      ],
+      "spouseId": null,
+      "lockedX": null,
+      "lockedY": null,
+      "x": null,
+      "y": null
+    },
+    "125": {
+      "id": "125",
+      "name": "Avni",
+      "gender": "male",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "96"
+      ],
+      "spouseId": null,
+      "lockedX": null,
+      "lockedY": null,
+      "x": null,
+      "y": null
+    },
+    "126": {
+      "id": "126",
+      "name": "Ertuğrul",
+      "gender": "male",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "96"
+      ],
+      "spouseId": null,
+      "lockedX": null,
+      "lockedY": null,
+      "x": null,
+      "y": null
+    },
+    "127": {
+      "id": "127",
+      "name": "Mehmet",
+      "gender": "male",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "96"
+      ],
+      "spouseId": null,
+      "lockedX": null,
+      "lockedY": null,
+      "x": null,
+      "y": null
+    },
+    "128": {
+      "id": "128",
+      "name": "Mahmut",
+      "gender": "male",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "96"
+      ],
+      "spouseId": null,
+      "lockedX": null,
+      "lockedY": null,
+      "x": null,
+      "y": null
+    },
+    "129": {
+      "id": "129",
+      "name": "Halide",
+      "gender": "female",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "96"
+      ],
+      "spouseId": null,
+      "lockedX": null,
+      "lockedY": null,
+      "x": null,
+      "y": null
+    },
+    "130": {
+      "id": "130",
+      "name": "Tevide",
+      "gender": "female",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "96"
+      ],
+      "spouseId": null,
+      "lockedX": null,
+      "lockedY": null,
+      "x": null,
+      "y": null
+    },
+    "131": {
+      "id": "131",
+      "name": "Nesime",
+      "gender": "female",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "96"
+      ],
+      "spouseId": null,
+      "lockedX": null,
+      "lockedY": null,
+      "x": null,
+      "y": null
+    },
+    "132": {
+      "id": "132",
+      "name": "Süheyla",
+      "gender": "female",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "96"
+      ],
+      "spouseId": null,
+      "lockedX": null,
+      "lockedY": null,
+      "x": null,
+      "y": null
+    },
+    "133": {
+      "id": "133",
+      "name": "Nesrin",
+      "gender": "female",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "96"
+      ],
+      "spouseId": null,
+      "lockedX": null,
+      "lockedY": null,
+      "x": null,
+      "y": null
+    },
+    "134": {
+      "id": "134",
+      "name": "Meryem",
+      "gender": "female",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "101"
+      ],
+      "spouseId": null,
+      "lockedX": null,
+      "lockedY": null,
+      "x": null,
+      "y": null
+    },
+    "135": {
+      "id": "135",
+      "name": "Nigar",
+      "gender": "female",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "101"
+      ],
+      "spouseId": null,
+      "lockedX": null,
+      "lockedY": null,
+      "x": null,
+      "y": null
+    },
+    "136": {
+      "id": "136",
+      "name": "Selami",
+      "gender": "male",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "97"
+      ],
+      "spouseId": null,
+      "lockedX": null,
+      "lockedY": null,
+      "x": null,
+      "y": null
+    },
+    "137": {
+      "id": "137",
+      "name": "Netice",
+      "gender": "female",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "97"
+      ],
+      "spouseId": null,
+      "lockedX": null,
+      "lockedY": null,
+      "x": null,
+      "y": null
+    },
+    "138": {
+      "id": "138",
+      "name": "Murat",
+      "gender": "male",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "136"
+      ],
+      "spouseId": null,
+      "lockedX": null,
+      "lockedY": null,
+      "x": null,
+      "y": null
+    },
+    "139": {
+      "id": "139",
+      "name": "Emre",
+      "gender": "male",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "136"
+      ],
+      "spouseId": null,
+      "lockedX": null,
+      "lockedY": null,
+      "x": null,
+      "y": null
+    },
+    "140": {
+      "id": "140",
+      "name": "Sefa",
+      "gender": "male",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "136"
+      ],
+      "spouseId": null,
+      "lockedX": null,
+      "lockedY": null,
+      "x": null,
+      "y": null
+    },
+    "141": {
+      "id": "141",
+      "name": "Semra",
+      "gender": "female",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "136"
+      ],
+      "spouseId": null,
+      "lockedX": null,
+      "lockedY": null,
+      "x": null,
+      "y": null
+    },
+    "142": {
+      "id": "142",
+      "name": "Batal",
+      "gender": "male",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "8"
+      ],
+      "spouseId": null,
+      "lockedX": null,
+      "lockedY": null,
+      "x": null,
+      "y": null
+    },
+    "143": {
+      "id": "143",
+      "name": "Yusuf Güzel",
+      "gender": "male",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "142"
+      ],
+      "spouseId": null,
+      "lockedX": null,
+      "lockedY": null,
+      "x": null,
+      "y": null
+    },
+    "144": {
+      "id": "144",
+      "name": "Dursun",
+      "gender": "male",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "142"
+      ],
+      "spouseId": null,
+      "lockedX": null,
+      "lockedY": null,
+      "x": null,
+      "y": null
+    },
+    "145": {
+      "id": "145",
+      "name": "İbrahim",
+      "gender": "male",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "143"
+      ],
+      "spouseId": null,
+      "lockedX": null,
+      "lockedY": null,
+      "x": null,
+      "y": null
+    },
+    "146": {
+      "id": "146",
+      "name": "Abdullah",
+      "gender": "male",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "143"
+      ],
+      "spouseId": null,
+      "lockedX": null,
+      "lockedY": null,
+      "x": null,
+      "y": null
+    },
+    "147": {
+      "id": "147",
+      "name": "Abdurrehim",
+      "gender": "male",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "143"
+      ],
+      "spouseId": null,
+      "lockedX": null,
+      "lockedY": null,
+      "x": null,
+      "y": null
+    },
+    "148": {
+      "id": "148",
+      "name": "Kerim",
+      "gender": "male",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "145"
+      ],
+      "spouseId": null,
+      "lockedX": null,
+      "lockedY": null,
+      "x": null,
+      "y": null
+    },
+    "149": {
+      "id": "149",
+      "name": "Rıza",
+      "gender": "male",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "8"
+      ],
+      "spouseId": null,
+      "lockedX": null,
+      "lockedY": null,
+      "x": null,
+      "y": null
+    },
+    "150": {
+      "id": "150",
+      "name": "Can Paşa",
+      "gender": "male",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "149"
+      ],
+      "spouseId": null,
+      "lockedX": null,
+      "lockedY": null,
+      "x": null,
+      "y": null
+    },
+    "151": {
+      "id": "151",
+      "name": "Gül Paşa",
+      "gender": "male",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "149"
+      ],
+      "spouseId": null,
+      "lockedX": null,
+      "lockedY": null,
+      "x": null,
+      "y": null
+    },
+    "152": {
+      "id": "152",
+      "name": "Hamit",
+      "gender": "male",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "8"
+      ],
+      "spouseId": null,
+      "lockedX": null,
+      "lockedY": null,
+      "x": null,
+      "y": null
+    },
+    "153": {
+      "id": "153",
+      "name": "Halit Güney",
+      "gender": "male",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "152"
+      ],
+      "spouseId": null,
+      "lockedX": null,
+      "lockedY": null,
+      "x": null,
+      "y": null
+    },
+    "154": {
+      "id": "154",
+      "name": "Yunus",
+      "gender": "male",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "153"
+      ],
+      "spouseId": null,
+      "lockedX": null,
+      "lockedY": null,
+      "x": null,
+      "y": null
+    },
+    "155": {
+      "id": "155",
+      "name": "Ali",
+      "gender": "male",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "153"
+      ],
+      "spouseId": null,
+      "lockedX": null,
+      "lockedY": null,
+      "x": null,
+      "y": null
+    },
+    "156": {
+      "id": "156",
+      "name": "Fikri",
+      "gender": "male",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "153"
+      ],
+      "spouseId": null,
+      "lockedX": null,
+      "lockedY": null,
+      "x": null,
+      "y": null
+    },
+    "157": {
+      "id": "157",
+      "name": "Münip",
+      "gender": "male",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "153"
+      ],
+      "spouseId": null,
+      "lockedX": null,
+      "lockedY": null,
+      "x": null,
+      "y": null
+    },
+    "158": {
+      "id": "158",
+      "name": "Fevzi",
+      "gender": "male",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "153"
+      ],
+      "spouseId": null,
+      "lockedX": null,
+      "lockedY": null,
+      "x": null,
+      "y": null
+    },
+    "159": {
+      "id": "159",
+      "name": "Hamit",
+      "gender": "male",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "153"
+      ],
+      "spouseId": null,
+      "lockedX": null,
+      "lockedY": null,
+      "x": null,
+      "y": null
+    },
+    "160": {
+      "id": "160",
+      "name": "Selahattin",
+      "gender": "male",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "155"
+      ],
+      "spouseId": null,
+      "lockedX": null,
+      "lockedY": null,
+      "x": null,
+      "y": null
+    },
+    "161": {
+      "id": "161",
+      "name": "Gafur",
+      "gender": "male",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "156"
+      ],
+      "spouseId": null,
+      "lockedX": null,
+      "lockedY": null,
+      "x": null,
+      "y": null
+    },
+    "162": {
+      "id": "162",
+      "name": "Kadir",
+      "gender": "male",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "156"
+      ],
+      "spouseId": null,
+      "lockedX": null,
+      "lockedY": null,
+      "x": null,
+      "y": null
+    },
+    "163": {
+      "id": "163",
+      "name": "Ikram",
+      "gender": "male",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "156"
+      ],
+      "spouseId": null,
+      "lockedX": null,
+      "lockedY": null,
+      "x": null,
+      "y": null
+    },
+    "164": {
+      "id": "164",
+      "name": "Hüseyin",
+      "gender": "male",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "156"
+      ],
+      "spouseId": null,
+      "lockedX": null,
+      "lockedY": null,
+      "x": null,
+      "y": null
+    },
+    "165": {
+      "id": "165",
+      "name": "Lobut",
+      "gender": "male",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "6"
+      ],
+      "spouseId": null,
+      "lockedX": null,
+      "lockedY": null,
+      "x": null,
+      "y": null
+    },
+    "166": {
+      "id": "166",
+      "name": "Abdulmecit",
+      "gender": "male",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "165"
+      ],
+      "spouseId": null,
+      "lockedX": null,
+      "lockedY": null,
+      "x": null,
+      "y": null
+    },
+    "167": {
+      "id": "167",
+      "name": "Vahit",
+      "gender": "male",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "165"
+      ],
+      "spouseId": null,
+      "lockedX": null,
+      "lockedY": null,
+      "x": null,
+      "y": null
+    },
+    "168": {
+      "id": "168",
+      "name": "İbrahim ATICI",
+      "gender": "male",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "167"
+      ],
+      "spouseId": null,
+      "lockedX": null,
+      "lockedY": null,
+      "x": null,
+      "y": null
+    },
+    "169": {
+      "id": "169",
+      "name": "Yusuf ATICI",
+      "gender": "male",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "167"
+      ],
+      "spouseId": null,
+      "lockedX": null,
+      "lockedY": null,
+      "x": null,
+      "y": null
+    },
+    "170": {
+      "id": "170",
+      "name": "İdris ATICI",
+      "gender": "male",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "167"
+      ],
+      "spouseId": null,
+      "lockedX": null,
+      "lockedY": null,
+      "x": null,
+      "y": null
+    },
+    "171": {
+      "id": "171",
+      "name": "Hasan ATICI",
+      "gender": "male",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "167"
+      ],
+      "spouseId": null,
+      "lockedX": null,
+      "lockedY": null,
+      "x": null,
+      "y": null
+    },
+    "172": {
+      "id": "172",
+      "name": "Hüseyin ATICI",
+      "gender": "male",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "167"
+      ],
+      "spouseId": null,
+      "lockedX": null,
+      "lockedY": null,
+      "x": null,
+      "y": null
+    },
+    "173": {
+      "id": "173",
+      "name": "Musa ATICI",
+      "gender": "male",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "167"
+      ],
+      "spouseId": null,
+      "lockedX": null,
+      "lockedY": null,
+      "x": null,
+      "y": null
+    },
+    "174": {
+      "id": "174",
+      "name": "Hatice ATICI",
+      "gender": "female",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "167"
+      ],
+      "spouseId": null,
+      "lockedX": null,
+      "lockedY": null,
+      "x": null,
+      "y": null
+    },
+    "175": {
+      "id": "175",
+      "name": "Mustafa",
+      "gender": "male",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "168"
+      ],
+      "spouseId": null,
+      "lockedX": null,
+      "lockedY": null,
+      "x": null,
+      "y": null
+    },
+    "176": {
+      "id": "176",
+      "name": "Nail",
+      "gender": "male",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "168"
+      ],
+      "spouseId": null,
+      "lockedX": null,
+      "lockedY": null,
+      "x": null,
+      "y": null
+    },
+    "177": {
+      "id": "177",
+      "name": "Muvret",
+      "gender": "female",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "168"
+      ],
+      "spouseId": null,
+      "lockedX": null,
+      "lockedY": null,
+      "x": null,
+      "y": null
+    },
+    "178": {
+      "id": "178",
+      "name": "Suat",
+      "gender": "male",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "168"
+      ],
+      "spouseId": null,
+      "lockedX": null,
+      "lockedY": null,
+      "x": null,
+      "y": null
+    },
+    "179": {
+      "id": "179",
+      "name": "Hanım",
+      "gender": "female",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "168"
+      ],
+      "spouseId": null,
+      "lockedX": null,
+      "lockedY": null,
+      "x": null,
+      "y": null
+    },
+    "180": {
+      "id": "180",
+      "name": "Sevgi",
+      "gender": "female",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "168"
+      ],
+      "spouseId": null,
+      "lockedX": null,
+      "lockedY": null,
+      "x": null,
+      "y": null
+    },
+    "181": {
+      "id": "181",
+      "name": "Hanife",
+      "gender": "female",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "168"
+      ],
+      "spouseId": null,
+      "lockedX": null,
+      "lockedY": null,
+      "x": null,
+      "y": null
+    },
+    "182": {
+      "id": "182",
+      "name": "Müjdat",
+      "gender": "male",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "6"
+      ],
+      "spouseId": null,
+      "lockedX": null,
+      "lockedY": null,
+      "x": null,
+      "y": null
+    },
+    "183": {
+      "id": "183",
+      "name": "Haydar",
+      "gender": "male",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "6"
+      ],
+      "spouseId": null,
+      "lockedX": null,
+      "lockedY": null,
+      "x": null,
+      "y": null
+    },
+    "184": {
+      "id": "184",
+      "name": "Hacı Mujdat ATICI",
+      "gender": "male",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "183"
+      ],
+      "spouseId": null,
+      "lockedX": null,
+      "lockedY": null,
+      "x": null,
+      "y": null
+    },
+    "185": {
+      "id": "185",
+      "name": "Süleyman",
+      "gender": "male",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "184"
+      ],
+      "spouseId": null,
+      "lockedX": null,
+      "lockedY": null,
+      "x": null,
+      "y": null
+    },
+    "187": {
+      "id": "187",
+      "name": "Tahir",
+      "gender": "male",
+      "birthDate": null,
+      "deathDate": null,
+      "birthplace": null,
+      "occupation": null,
+      "bio": null,
+      "photo": null,
+      "parentIds": [
+        "184"
+      ],
+      "spouseId": null,
+      "lockedX": null,
+      "lockedY": null,
+      "x": null,
+      "y": null
+    }
+  }
+}
