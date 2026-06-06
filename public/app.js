@@ -159,8 +159,12 @@ async function api(method, path, body = null) {
 // AUTH
 // =============================================
 async function checkAuth() {
-  const data = await api('GET', '/api/auth-status');
-  setAdminMode(data.isAdmin);
+  try {
+    const data = await api('GET', '/api/auth-status');
+    setAdminMode(data.isAdmin);
+  } catch (e) {
+    setAdminMode(false);
+  }
 }
 
 function setAdminMode(isAdmin) {
